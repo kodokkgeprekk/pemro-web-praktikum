@@ -60,7 +60,7 @@
   </style>
   <script>
     function validateForm(event) {
-      event.preventDefault(); // Mencegah form disubmit ke server
+      event.preventDefault(); 
 
       let name = document.forms["myForm"]["fname"].value.trim();
       let email = document.forms["myForm"]["email"].value.trim();
@@ -71,11 +71,9 @@
         return false;
       }
 
-      // Menampilkan sapaan setelah validasi berhasil
       document.getElementById("greeting").innerHTML = 
         `Halo, <strong>${name}</strong>! Email kamu adalah <strong>${email}</strong>.`;
 
-      // Opsional: reset form
       document.forms["myForm"].reset();
     }
   </script>
