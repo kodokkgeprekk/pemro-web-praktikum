@@ -1,4 +1,5 @@
 [
+<<<<<<< HEAD
   {
     "id": 1,
     "name": "John Doe",
@@ -15,3 +16,21 @@
     "email": "richard@example.com"
   }
 ]
+=======
+    {
+      "id": 1,
+      "name": "John Doe",
+      "email": "john@example.com"
+    },
+    {
+      "id": 2,
+      "name": "Jane Doe",
+      "email": "jane@example.com"
+    },
+    {
+      "id": 3,
+      "name": "Richard Roe",
+      "email": "richard@example.com"
+    }
+  ]
+>>>>>>> bee327c9c6e2062ef407b71b336b53c41ceb52df

@@ -1,6 +1,7 @@
 {
   "name": "learn-backend",
   "version": "1.0.0",
+<<<<<<< HEAD
   "description": "A simple backend application",
   "license": "ISC",
   "author": "",
@@ -13,5 +14,19 @@
   "dependencies": {
     "express": "^5.1.0",
     "mysql2": "^3.14.1"
+=======
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "express": "^5.1.0",
+    "mysql2": "^3.14.1"
+    
+>>>>>>> bee327c9c6e2062ef407b71b336b53c41ceb52df
   }
 }

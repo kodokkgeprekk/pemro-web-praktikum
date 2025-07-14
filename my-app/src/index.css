@@ -14,4 +14,12 @@
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+<<<<<<< HEAD
 } */
+=======
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+>>>>>>> bee327c9c6e2062ef407b71b336b53c41ceb52df
